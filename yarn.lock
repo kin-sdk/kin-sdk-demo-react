@@ -1405,12 +1405,12 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@kin-sdk/client@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@kin-sdk/client/-/client-0.1.1.tgz#82e8ae0eb88f1aa9fe10e85fc2bbe4814843ca0c"
-  integrity sha512-4aipgql/ay+zsIalo+9MkXqM+ZTdWdrlcKGdtr4ix0nctPS/5wCoWafoMxmcvC0ZZmzSa4S4lvuBhZlGNMXGDg==
+"@kin-sdk/client@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@kin-sdk/client/-/client-0.4.0.tgz#5ba5209318b685ee61f3cb8569f86292785c7c45"
+  integrity sha512-ORawU7yhBW/abmzSpyyKL2FoZyZ/aMk5DCS0zWXM5UvnjxcRZRdokbfEfWf+/k5z0lhCwUW8jKHhcBgR/EoEgQ==
   dependencies:
-    "@kin-sdk/core" "0.1.1"
+    "@kin-sdk/core" "0.4.0"
     "@kintegrate/google-protobuf" "^3.15.7"
     "@ledgerhq/hw-transport-webusb" "^5.48.0"
     "@solana/web3.js" "^1.2.5"
@@ -1420,12 +1420,13 @@
     bs58 "^4.0.1"
     crc "^3.8.0"
     sha.js "^2.4.11"
+    ts-retry-promise "^0.6.0"
     tweetnacl "^1.0.3"
 
-"@kin-sdk/core@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@kin-sdk/core/-/core-0.1.1.tgz#7dd4398dbb022987f8bcf46b800153a41ad82c22"
-  integrity sha512-Vm2Qv0emAsW9it0SBJBWaYorRM6YI3DRWFbQG/+pm0Z4FJjcQ+u25b7CaNVTqNUoZlmF3h3zaW0tvAvAxyXdDQ==
+"@kin-sdk/core@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@kin-sdk/core/-/core-0.4.0.tgz#e5142429d4fc901748faae32ac994513fac163c8"
+  integrity sha512-O+kEXilyhGN5SyrMT5nstcCw+lcJ4mtiXV+0K8ug2Ksx2IKuCLG1NbWVM9lv3VrWOWba6zT2ublm5IP8ah/Sjw==
   dependencies:
     "@kintegrate/google-protobuf" "^3.15.7"
     "@ledgerhq/hw-transport-webusb" "^5.48.0"
@@ -10942,6 +10943,11 @@ ts-pnp@1.2.0, ts-pnp@^1.1.6:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==
+
+ts-retry-promise@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/ts-retry-promise/-/ts-retry-promise-0.6.0.tgz#95643500d5388eed25abc90aa2e99c8b6c5a7bc9"
+  integrity sha512-8DF80uA7JPu6m8ouHxGkyBpPTIGQnsgIUgLDqcRaD7EEhVowjG72KqCX334gsa1P+AmzeTVdd/xEzVFCAuPCtg==
 
 tsconfig-paths@^3.9.0:
   version "3.9.0"
