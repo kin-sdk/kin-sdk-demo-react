@@ -36,8 +36,8 @@ function App() {
       setStep1Status('Something went wrong!' + e)
     }
   }
-  const resolveTokenAccount = async () => {
-    setStep2Status('resolveTokenAccount')
+  const getBalances = async () => {
+    setStep2Status('getBalances')
     try {
       const [result, error] = await client.getBalances(wallet?.publicKey!)
       if (error) {
@@ -58,7 +58,7 @@ function App() {
         console.log('error', error)
         setStep3Status(error)
       } else {
-        await resolveTokenAccount()
+        await getBalances()
         setStep3Status(JSON.stringify(result))
       }
     } catch (e) {
@@ -81,7 +81,7 @@ function App() {
         console.log('error', error)
         setStep4Status(error)
       } else {
-        await resolveTokenAccount()
+        await getBalances()
         setStep4Status('Submit Payment Done: ' + result)
         setTxId(result)
       }
@@ -107,7 +107,7 @@ function App() {
           {created ? (
             <div>
               <div>
-                <button onClick={resolveTokenAccount}>Resolve Token Account</button>
+                <button onClick={getBalances}>Get Balances</button>
                 <pre>{step2Status}</pre>
               </div>
               <div>
