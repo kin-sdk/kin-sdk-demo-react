@@ -1405,12 +1405,12 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@kin-sdk/client@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@kin-sdk/client/-/client-0.4.0.tgz#5ba5209318b685ee61f3cb8569f86292785c7c45"
-  integrity sha512-ORawU7yhBW/abmzSpyyKL2FoZyZ/aMk5DCS0zWXM5UvnjxcRZRdokbfEfWf+/k5z0lhCwUW8jKHhcBgR/EoEgQ==
+"@kin-sdk/client@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@kin-sdk/client/-/client-0.5.0.tgz#767879b5edc6a6aadf60b8dc57209563859014f4"
+  integrity sha512-4CZ79NasZijMOwmmefOo+/zXvUyoXKBu8RRZY3nx2+wxtZKX5cuS3rtwursVu7kM01qR6hd9Nuw9k/NIfCmV4Q==
   dependencies:
-    "@kin-sdk/core" "0.4.0"
+    "@kin-sdk/core" "0.5.0"
     "@kintegrate/google-protobuf" "^3.15.7"
     "@ledgerhq/hw-transport-webusb" "^5.48.0"
     "@solana/web3.js" "^1.2.5"
@@ -1423,10 +1423,10 @@
     ts-retry-promise "^0.6.0"
     tweetnacl "^1.0.3"
 
-"@kin-sdk/core@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@kin-sdk/core/-/core-0.4.0.tgz#e5142429d4fc901748faae32ac994513fac163c8"
-  integrity sha512-O+kEXilyhGN5SyrMT5nstcCw+lcJ4mtiXV+0K8ug2Ksx2IKuCLG1NbWVM9lv3VrWOWba6zT2ublm5IP8ah/Sjw==
+"@kin-sdk/core@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@kin-sdk/core/-/core-0.5.0.tgz#3baffe82820aecef135d959e46f7faf936f30633"
+  integrity sha512-S6MM55s6dDJQrj3GzUBSbCc/x5HnkcMg4AeZUgpiRY3tNQLqU9MzlWxHFp0k4hYY28v0sTuwYuH0C68KE1TW4g==
   dependencies:
     "@kintegrate/google-protobuf" "^3.15.7"
     "@ledgerhq/hw-transport-webusb" "^5.48.0"

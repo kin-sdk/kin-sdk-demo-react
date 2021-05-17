@@ -39,7 +39,7 @@ function App() {
   const resolveTokenAccount = async () => {
     setStep2Status('resolveTokenAccount')
     try {
-      const [result, error] = await client.resolveTokenAccounts(wallet?.publicKey!)
+      const [result, error] = await client.getBalances(wallet?.publicKey!)
       if (error) {
         console.log('error', error)
         setStep2Status(error)
