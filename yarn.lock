@@ -1405,12 +1405,13 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@kin-sdk/client@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@kin-sdk/client/-/client-0.6.0.tgz#c5b0621cceb5e090a1b6b83e40e3dadad5d64041"
-  integrity sha512-kaF8ZF89/hemexr+VPsWGrTdDHcKyH5Te1ygSy+TVMVRpAIl/wS/cgx6a9q5yOO6RW28ypxIoN+6M6r/HXhu8w==
+"@kin-sdk/client@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@kin-sdk/client/-/client-0.8.0.tgz#c93e203bbb0edc894aeaaca4666ab71dba629b5a"
+  integrity sha512-czj34fCkqizG7dFysri2mI+h6EXL+Lkr/BT47G2HDkBPuz5l5LCqmhWfRn5/Aehr6OAjEhkOc3iCz04QBtB0JA==
   dependencies:
-    "@kin-sdk/core" "0.6.0"
+    "@kin-sdk/core" "0.8.0"
+    "@kin-tools/kin-memo" "^1.3.0"
     "@kintegrate/google-protobuf" "^3.15.7"
     "@ledgerhq/hw-transport-webusb" "^5.48.0"
     "@solana/web3.js" "^1.2.5"
@@ -1423,11 +1424,12 @@
     ts-retry-promise "^0.6.0"
     tweetnacl "^1.0.3"
 
-"@kin-sdk/core@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@kin-sdk/core/-/core-0.6.0.tgz#846c5c94702c8939e2372059f12421955c20c3d2"
-  integrity sha512-cZOviS1M/rMBNbf/wy08PYgw5u/HSUJientniIu9rF1kmrWhPbpJITs7selWKtoNwfuRd5d/bfd0QSgo6Kfpdw==
+"@kin-sdk/core@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@kin-sdk/core/-/core-0.8.0.tgz#762110deedb96697e1278faaf3cb5961d751cb1e"
+  integrity sha512-WcOEla4qoDAAjjluo6kABOkjAueeDacCrVqmu/COImHmTTMer36c9m1/MXGC/Pz2Bimy/QJLuNt9HQYZZi2e0Q==
   dependencies:
+    "@kin-tools/kin-memo" "^1.3.0"
     "@kintegrate/google-protobuf" "^3.15.7"
     "@ledgerhq/hw-transport-webusb" "^5.48.0"
     "@solana/web3.js" "^1.2.5"
@@ -1438,6 +1440,11 @@
     crc "^3.8.0"
     sha.js "^2.4.11"
     tweetnacl "^1.0.3"
+
+"@kin-tools/kin-memo@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@kin-tools/kin-memo/-/kin-memo-1.3.0.tgz#5781d5a67d69a62ca7a63035aa309618d0df2618"
+  integrity sha512-WE6ZORSRUTD0Yj7JEl11q3bXed/MX68BJvD5Ir99baliGvf4YGWNtw0GK1NZDAI9C1oIO7sJMCyOKQ1WLwfIzg==
 
 "@kintegrate/google-protobuf@^3.15.7":
   version "3.15.7"
